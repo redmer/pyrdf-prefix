@@ -31,7 +31,7 @@ For more specific types of accommodations not defined in schema.org, one can use
 See also the <a href="/docs/hotels.html">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
 """
     AccountingService: NamedNode
-    """Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).
+    """Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]'(s).
       """
     AchieveAction: NamedNode
     """The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process."""
@@ -1166,7 +1166,7 @@ The amount of a [[Grant]] is represented using [[amount]] as a [[MonetaryAmount]
     HobbyShop: NamedNode
     """A store that sells materials useful or necessary for various hobbies."""
     HomeAndConstructionBusiness: NamedNode
-    """A construction business.\n\nA HomeAndConstructionBusiness is a [[LocalBusiness]] that provides services around homes and buildings.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s)."""
+    """A construction business.\n\nA HomeAndConstructionBusiness is a [[LocalBusiness]] that provides services around homes and buildings.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]'(s)."""
     HomeGoodsStore: NamedNode
     """A home goods store."""
     Homeopathic: NamedNode
@@ -1338,7 +1338,7 @@ The [[practicesAt]] property can be used to indicate [[MedicalOrganization]] hos
     LegalForceStatus: NamedNode
     """A list of possible statuses for the legal force of a legislation."""
     LegalService: NamedNode
-    """A LegalService is a business that provides legally-oriented services, advice and representation, e.g. law firms.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s)."""
+    """A LegalService is a business that provides legally-oriented services, advice and representation, e.g. law firms.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]'(s)."""
     LegalValueLevel: NamedNode
     """A list of possible levels for the legal validity of a legislation."""
     Legislation: NamedNode
@@ -2594,7 +2594,7 @@ Several kinds of information can be provided:
 
 We encourage the provision of "name", "text", "datePosted", "expires" (if appropriate), "category" and
 "url" as a simple baseline. It is important to provide a value for "category" where possible, most ideally as a well known
-URL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus pandemic, this should be "https://en.wikipedia.org/w/index.php?title=2019-20\_coronavirus\_pandemic" or "https://www.wikidata.org/wiki/Q81068910".
+URL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus pandemic, this should be "https://en.wikipedia.org/w/index.php?title=2019-20_coronavirus_pandemic" or "https://www.wikidata.org/wiki/Q81068910".
 
 For many of the possible properties, values can either be simple links or an inline description, depending on whether a summary is available. For a link, provide just the URL of the appropriate page as the property's value. For an inline description, use a [[WebContent]] type, and provide the url as a property of that, alongside at least a simple "[[text]]" summary of the page. It is
 unlikely that a single SpecialAnnouncement will need all of the possible properties simultaneously.
@@ -4021,7 +4021,7 @@ This property should not be used where the nature of the alignment can be descri
     educationalUse: NamedNode
     """The purpose of a work in the context of education; for example, 'assignment', 'group work'."""
     elevation: NamedNode
-    """The elevation of a location ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be of the form 'NUMBER UNIT\_OF\_MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters."""
+    """The elevation of a location ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)). Values may be of the form 'NUMBER UNIT_OF_MEASUREMENT' (e.g., '1,000 m', '3,200 ft') while numbers alone should be assumed to be a value in meters."""
     eligibilityToWorkRequirement: NamedNode
     """The legal requirements such as citizenship, visa and other documentation required for an applicant to this job."""
     eligibleCustomerType: NamedNode
@@ -4087,7 +4087,7 @@ Unregistered or niche encoding and file formats can be indicated instead via the
     """The volume swept by all of the pistons inside the cylinders of an internal combustion engine in a single movement. \n\nTypical unit code(s): CMQ for cubic centimeter, LTR for liters, INQ for cubic inches\n* Note 1: You can link to information about how the given value has been determined using the [[valueReference]] property.\n* Note 2: You can use [[minValue]] and [[maxValue]] to indicate ranges."""
     enginePower: NamedNode
     """The power of the vehicle's engine.
-    Typical unit code(s): KWT for kilowatt, BHP for brake horsepower, N12 for metric horsepower (PS, with 1 PS = 735,49875 W)\n\n* Note 1: There are many different ways of measuring an engine's power. For an overview, see  [http://en.wikipedia.org/wiki/Horsepower#Engine\_power\_test\_codes](http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes).\n* Note 2: You can link to information about how the given value has been determined using the [[valueReference]] property.\n* Note 3: You can use [[minValue]] and [[maxValue]] to indicate ranges."""
+    Typical unit code(s): KWT for kilowatt, BHP for brake horsepower, N12 for metric horsepower (PS, with 1 PS = 735,49875 W)\n\n* Note 1: There are many different ways of measuring an engine's power. For an overview, see  [http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes](http://en.wikipedia.org/wiki/Horsepower#Engine_power_test_codes).\n* Note 2: You can link to information about how the given value has been determined using the [[valueReference]] property.\n* Note 3: You can use [[minValue]] and [[maxValue]] to indicate ranges."""
     engineType: NamedNode
     """The type of engine or engines powering the vehicle."""
     entertainmentBusiness: NamedNode
