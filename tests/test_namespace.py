@@ -1,8 +1,8 @@
 import pytest
 from pyoxigraph import NamedNode
 
-from pyrdf_namespaces.namespace import PredefinedNamespace, Prefix
-from pyrdf_namespaces.predefined import DCTERMS, RDF
+from pyrdf_prefix import PredefinedNamespace, Prefix
+from pyrdf_prefix.predefined import DCTERMS, RDF
 
 
 def test_expansion():

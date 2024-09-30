@@ -99,7 +99,7 @@ def predefined_class_as_string(
     return f'''\
 from pyoxigraph import NamedNode
 
-from pyrdf_namespaces.namespace import PredefinedNamespace
+from pyrdf_prefix import PredefinedNamespace
 
 class {alias}(PredefinedNamespace):
     """{info.title}"""
@@ -150,7 +150,7 @@ if __name__ == "__main__":
         try:
             contents = load_from_url(info)
             result = predefined_class_as_string(alias, contents, info)
-            outfn = f"src/pyrdf_namespaces/predefined/_{alias}.py"
+            outfn = f"src/pyrdf_prefix/predefined/_{alias}.py"
             with open(outfn, "w") as out:
                 print(result, file=out)
             print(f"PredefinedNamespace for '{alias}' DONE: {outfn}")

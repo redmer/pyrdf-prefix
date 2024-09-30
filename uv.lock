@@ -54,7 +54,7 @@ wheels = [
 ]
 
 [[package]]
-name = "pyrdf-namespaces"
+name = "pyrdf-prefix"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
