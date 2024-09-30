@@ -11,6 +11,10 @@ __WELL_KNOWN_NAMESPACE_META_ATTR__: set[str] = {
     "_withContainerMembershipProperty",
 }
 
+__WELL_KNOWN_IGNORED_ATTR__: set[str] = {
+    "_pytestfixturefunction",  # pytest
+}
+
 
 class PredefinedNamespaceMeta(type):
     _nsBaseIri: str  # Namespace IRI base
@@ -27,7 +31,11 @@ class PredefinedNamespaceMeta(type):
         if local_name in __WELL_KNOWN_NAMESPACE_META_ATTR__:
             raise AttributeError("Private use")
 
-        if (cls._issueWarning) and local_name not in cls:
+        if (
+            (cls._issueWarning)
+            and local_name not in cls
+            and local_name not in __WELL_KNOWN_IGNORED_ATTR__
+        ):
             warnings.warn(
                 f"Local name '{local_name}' unknown in {cls.__name__} ({cls!r})",
                 stacklevel=3,
