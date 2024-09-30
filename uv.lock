@@ -1,5 +1,5 @@
 version = 1
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 
 [[package]]
 name = "colorama"
@@ -8,6 +8,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335 },
+]
+
+[[package]]
+name = "exceptiongroup"
+version = "1.2.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz", hash = "sha256:47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc", size = 28883 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/cc/b7e31358aac6ed1ef2bb790a9746ac2c69bcb3c8588b41616914eb106eaf/exceptiongroup-1.2.2-py3-none-any.whl", hash = "sha256:3111b9d131c238bec2f8f516e123e14ba243563fb135d3fe885990585aa7795b", size = 16453 },
 ]
 
 [[package]]
@@ -43,6 +52,10 @@ version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ea/c8/8fc7ba87367f1d138e268bb83cd1edfd0554990925a7c4dad7a2efee1ebb/pyoxigraph-0.4.0.tar.gz", hash = "sha256:930a11ae49a1ebbb018387643e3ca1ce2ab8822b0081ad14b8671abed12d788e", size = 4581397 }
 wheels = [
+    { url = "https://files.pythonhosted.org/packages/60/6a/91e87fcad1ca38e7c5eb208dd0f63c573112406f42833f53416aa5512bd6/pyoxigraph-0.4.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a25b1d39dd93fab0d967b118b3baacfecffc89eb5da4393161bd60af02dac801", size = 6443689 },
+    { url = "https://files.pythonhosted.org/packages/b5/07/fe7e125fe28b1651189b6caba0deb701a931c2f2d4121246197fdfff3115/pyoxigraph-0.4.0-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:fcec5128278d95b593d16b3c814d2acc0d2857586afc5b768666f0d197e53374", size = 7581198 },
+    { url = "https://files.pythonhosted.org/packages/78/4c/74fd68c708412fb7fa0539b9f579dcf7b4e483d5ecb9f194a8dec2abbf93/pyoxigraph-0.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2a8a01a2083920e3c5f9ae61b34614dfa0681c35aba22bc7a17eedecc48f533a", size = 6443050 },
+    { url = "https://files.pythonhosted.org/packages/c8/e1/adb6044a473f2369cfb3369998292d4853e36534e490796c809ca0ccf432/pyoxigraph-0.4.0-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:e3cc93dd44fa43759f83beae89c2dd4b553995f4e4ae25c992c21d211535c932", size = 7580845 },
     { url = "https://files.pythonhosted.org/packages/b1/73/762f0b234a83f68ef48f2d2d3cdaeb6374a7c4e824aa883f99eb67a7da52/pyoxigraph-0.4.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f4e2e2a9ee0e73158ea1e81e2fcd3e3afc4de8ef06dff16908b83dc41072a304", size = 6445646 },
     { url = "https://files.pythonhosted.org/packages/3d/26/fc822378f66d0b2f5bb32563953beef2e7dbe609ae435ffeb8b8c02343ae/pyoxigraph-0.4.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:8119feae123138cfa19dd8db4330b7db9e3b88e63efab92235abdbc11c2a3d4c", size = 7578982 },
     { url = "https://files.pythonhosted.org/packages/37/53/43fb0583106e61e16db58b6a588dcf099520e112ff25f2b3f25667584e98/pyoxigraph-0.4.0-cp38-abi3-macosx_10_14_x86_64.macosx_11_0_arm64.macosx_10_14_universal2.whl", hash = "sha256:6c9a65310758544a08876464b6edf8ade3fde15d16a514802145071e2e23bfdf", size = 9592208 },
@@ -51,6 +64,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/91/10/9c8e0b1fa7cfa31b0f5f3473dce440d8b57a4628f967298bd19a6bf77223/pyoxigraph-0.4.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0bf239cd0cc3af4106d0615130c8c7092b3b084285b62fa8915013a337d0b4bd", size = 6446663 },
     { url = "https://files.pythonhosted.org/packages/6a/23/a4a92192ad17be39d9b3dadc2ef2be0db0e4f42a57b001bbd12f6f2751b7/pyoxigraph-0.4.0-cp38-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:08ec6a48497ecd8b26a7f241112acd1ddeadade5aa434b23e143a20e936145bc", size = 7582972 },
     { url = "https://files.pythonhosted.org/packages/cb/ce/e77ee10e526c4100dc6c8b8ade8f5288d109da0b64b26d2b871ade22f1a8/pyoxigraph-0.4.0-cp38-abi3-win_amd64.whl", hash = "sha256:df71b613c1c3a55c3508e2f8b2905683650ecab15a3d0d75c4b5b7669a4f654b", size = 4318100 },
+    { url = "https://files.pythonhosted.org/packages/9e/87/d238572eb9f2bd0e3d07b37fddb13aaac1f4f14a222eb885bdba3c482762/pyoxigraph-0.4.0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:87d5908e8f0b64fbc7bc2007317c9ff0b9a7a0fe51a9386e058f06d30ab3304a", size = 6443310 },
 ]
 
 [[package]]
@@ -59,14 +73,18 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pyoxigraph" },
+]
+
+[package.dev-dependencies]
+dev = [
     { name = "pytest" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "pyoxigraph", specifier = ">=0.4.0" },
-    { name = "pytest", specifier = ">=8.3.3" },
-]
+requires-dist = [{ name = "pyoxigraph", specifier = ">=0.4.0" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=8.3.3" }]
 
 [[package]]
 name = "pytest"
@@ -74,11 +92,22 @@ version = "8.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "exceptiongroup", marker = "python_full_version < '3.11'" },
     { name = "iniconfig" },
     { name = "packaging" },
     { name = "pluggy" },
+    { name = "tomli", marker = "python_full_version < '3.11'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/8b/6c/62bbd536103af674e227c41a8f3dcd022d591f6eed5facb5a0f31ee33bbc/pytest-8.3.3.tar.gz", hash = "sha256:70b98107bd648308a7952b06e6ca9a50bc660be218d53c257cc1fc94fda10181", size = 1442487 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6b/77/7440a06a8ead44c7757a64362dd22df5760f9b12dc5f11b6188cd2fc27a0/pytest-8.3.3-py3-none-any.whl", hash = "sha256:a6853c7375b2663155079443d2e45de913a911a11d669df02a50814944db57b2", size = 342341 },
+]
+
+[[package]]
+name = "tomli"
+version = "2.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c0/3f/d7af728f075fb08564c5949a9c95e44352e23dee646869fa104a3b2060a3/tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f", size = 15164 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc", size = 12757 },
 ]
