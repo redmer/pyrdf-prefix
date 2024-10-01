@@ -5715,7 +5715,7 @@ While such policies are most typically expressed in natural language, sometimes 
     slogan: NamedNode
     """A slogan or motto associated with the item."""
     smiles: NamedNode
-    """A specification in form of a line notation for describing the structure of chemical species using short ASCII strings.  Double bond stereochemistry \ indicators may need to be escaped in the string in formats where the backslash is an escape character."""
+    """A specification in form of a line notation for describing the structure of chemical species using short ASCII strings.  Double bond stereochemistry \\ indicators may need to be escaped in the string in formats where the backslash is an escape character."""
     smokingAllowed: NamedNode
     """Indicates whether it is allowed to smoke in the place, e.g. in the restaurant, hotel or hotel room."""
     sodiumContent: NamedNode
