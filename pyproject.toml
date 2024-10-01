@@ -1,6 +1,6 @@
 [project]
 name = "pyrdf-prefix"
-version = "0.2.0"
+version = "0.2.1"
 description = "Easily access common RDF vocabularies and your own custom namespaces, for usage with pyoxigraph"
 readme = "README.md"
 requires-python = ">=3.10"
